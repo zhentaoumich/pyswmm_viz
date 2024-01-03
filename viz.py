@@ -792,7 +792,7 @@ def path_view(out,df):
 def water_flux(out):
     
     #create a sankey diagram
-    HtmlFile = open("H:/swmm_plot_examples/lid_plot.html", 'r', encoding='utf-8')
+    HtmlFile = open("tempDir/lid_plot.html", 'r', encoding='utf-8')
     source_code = HtmlFile.read() 
     components.html(source_code,height = 800,width = 1200)
     
@@ -803,7 +803,7 @@ def water_flux(out):
 def bim_view():
     
  
-    HtmlFile = open("H:/work/Downloads/swmm_dash/_continuity_sankey_plot.html", 'r', encoding='utf-8')
+    HtmlFile = open("tempDirt/_continuity_sankey_plot.html", 'r', encoding='utf-8')
     source_code = HtmlFile.read() 
     components.html(source_code,height = 1600,width = 1200)      
      
